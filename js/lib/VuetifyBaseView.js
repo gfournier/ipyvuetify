@@ -45,8 +45,7 @@ export class VuetifyBaseView extends DOMWidgetView {
                      * v-menu */
                     if (!this.ipyvuetifyApp) {
                         this.ipyvuetifyApp = createElement('div', { class: 'vuetify-styles bootstrap-styles' }, [
-                            createElement('v-app', [
-                                this.vueRender(createElement)])]);
+                                this.vueRender(createElement)]);
                     }
                     return this.ipyvuetifyApp;
                 },
