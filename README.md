@@ -1,7 +1,7 @@
 ipybootstrapvue
 ===============================
 
-[![Version](https://img.shields.io/pypi/v/ipybootstrapvue.svg)](https://pypi.python.org/gfournier/ipybootstrapvue)
+[![Version](https://img.shields.io/pypi/v/ipybootstrapvue.svg)](https://pypi.org/project/ipybootstrapvue/)
 
 Jupyter widgets based on [Bootstrap Vue UI components](https://bootstrap-vue.js.org) which implement 
 [Bootstrap Design](https://getbootstrap.com) with the [Vue.js framework](https://vuejs.org/).
