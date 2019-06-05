@@ -168,8 +168,8 @@ setup_args = {
         'generate_source': GenerateSource,
     },
 
-    'author': 'Mario Buikhuizen, Maarten Breddels',
-    'author_email': 'mbuikhuizen@gmail.com, maartenbreddels@gmail.com',
+    'author': 'Guillaume Fournier',
+    'author_email': 'fournierg@gmail.com',
     'url': 'https://github.com/gfournier/ipyvuetify',
     'keywords': [
         'ipython',
