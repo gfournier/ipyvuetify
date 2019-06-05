@@ -1,0 +1,9509 @@
+{
+  "b-alert": {
+    "props": [
+      {
+        "name": "dismissLabel",
+        "type": "string",
+        "default": "'Close'",
+        "source": null
+      },
+      {
+        "name": "dismissible",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "fade",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "show",
+        "type": [
+          "boolean",
+          "number",
+          "string"
+        ],
+        "default": false,
+        "source": null
+      },
+      {
+        "name": "variant",
+        "type": "string",
+        "default": "'info'",
+        "source": null
+      }
+    ],
+    "mixins": []
+  },
+  "b-badge": {
+    "props": [
+      {
+        "name": "active",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "activeClass",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "append",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "disabled",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "event",
+        "type": [
+          "string",
+          "array"
+        ],
+        "default": "click",
+        "source": null
+      },
+      {
+        "name": "exact",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "exactActiveClass",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "href",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "noPrefetch",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "pill",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "rel",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "replace",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "routerTag",
+        "type": "string",
+        "default": "'a'",
+        "source": null
+      },
+      {
+        "name": "tag",
+        "type": "string",
+        "default": "'span'",
+        "source": null
+      },
+      {
+        "name": "target",
+        "type": "string",
+        "default": "'_self'",
+        "source": null
+      },
+      {
+        "name": "to",
+        "type": [
+          "string",
+          "object"
+        ],
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "variant",
+        "type": "string",
+        "default": "'secondary'",
+        "source": null
+      }
+    ],
+    "mixins": []
+  },
+  "b-breadcrumb": {
+    "props": [
+      {
+        "name": "items",
+        "type": "array",
+        "default": "undefined",
+        "source": null
+      }
+    ],
+    "mixins": []
+  },
+  "b-breadcrumb-item": {
+    "props": [
+      {
+        "name": "active",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "activeClass",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "append",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "ariaCurrent",
+        "type": "string",
+        "default": "'location'",
+        "source": null
+      },
+      {
+        "name": "disabled",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "event",
+        "type": [
+          "string",
+          "array"
+        ],
+        "default": "click",
+        "source": null
+      },
+      {
+        "name": "exact",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "exactActiveClass",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "href",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "html",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "noPrefetch",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "rel",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "replace",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "routerTag",
+        "type": "string",
+        "default": "'a'",
+        "source": null
+      },
+      {
+        "name": "target",
+        "type": "string",
+        "default": "'_self'",
+        "source": null
+      },
+      {
+        "name": "text",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "to",
+        "type": [
+          "string",
+          "object"
+        ],
+        "default": "undefined",
+        "source": null
+      }
+    ],
+    "mixins": []
+  },
+  "b-breadcrumb-link": {
+    "props": [
+      {
+        "name": "active",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "activeClass",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "append",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "ariaCurrent",
+        "type": "string",
+        "default": "'location'",
+        "source": null
+      },
+      {
+        "name": "disabled",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "event",
+        "type": [
+          "string",
+          "array"
+        ],
+        "default": "click",
+        "source": null
+      },
+      {
+        "name": "exact",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "exactActiveClass",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "href",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "html",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "noPrefetch",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "rel",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "replace",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "routerTag",
+        "type": "string",
+        "default": "'a'",
+        "source": null
+      },
+      {
+        "name": "target",
+        "type": "string",
+        "default": "'_self'",
+        "source": null
+      },
+      {
+        "name": "text",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "to",
+        "type": [
+          "string",
+          "object"
+        ],
+        "default": "undefined",
+        "source": null
+      }
+    ],
+    "mixins": []
+  },
+  "b-button": {
+    "props": [
+      {
+        "name": "active",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "activeClass",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "append",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "block",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "disabled",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "event",
+        "type": [
+          "string",
+          "array"
+        ],
+        "default": "click",
+        "source": null
+      },
+      {
+        "name": "exact",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "exactActiveClass",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "href",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "noPrefetch",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "pill",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "pressed",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "rel",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "replace",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "routerTag",
+        "type": "string",
+        "default": "'a'",
+        "source": null
+      },
+      {
+        "name": "size",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "squared",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "tag",
+        "type": "string",
+        "default": "'button'",
+        "source": null
+      },
+      {
+        "name": "target",
+        "type": "string",
+        "default": "'_self'",
+        "source": null
+      },
+      {
+        "name": "to",
+        "type": [
+          "string",
+          "object"
+        ],
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "type",
+        "type": "string",
+        "default": "'button'",
+        "source": null
+      },
+      {
+        "name": "variant",
+        "type": "string",
+        "default": "'secondary'",
+        "source": null
+      }
+    ],
+    "mixins": []
+  },
+  "b-btn": {
+    "props": [
+      {
+        "name": "active",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "activeClass",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "append",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "block",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "disabled",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "event",
+        "type": [
+          "string",
+          "array"
+        ],
+        "default": "click",
+        "source": null
+      },
+      {
+        "name": "exact",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "exactActiveClass",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "href",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "noPrefetch",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "pill",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "pressed",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "rel",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "replace",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "routerTag",
+        "type": "string",
+        "default": "'a'",
+        "source": null
+      },
+      {
+        "name": "size",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "squared",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "tag",
+        "type": "string",
+        "default": "'button'",
+        "source": null
+      },
+      {
+        "name": "target",
+        "type": "string",
+        "default": "'_self'",
+        "source": null
+      },
+      {
+        "name": "to",
+        "type": [
+          "string",
+          "object"
+        ],
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "type",
+        "type": "string",
+        "default": "'button'",
+        "source": null
+      },
+      {
+        "name": "variant",
+        "type": "string",
+        "default": "'secondary'",
+        "source": null
+      }
+    ],
+    "mixins": []
+  },
+  "b-button-close": {
+    "props": [
+      {
+        "name": "ariaLabel",
+        "type": "string",
+        "default": "'Close'",
+        "source": null
+      },
+      {
+        "name": "disabled",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "textVariant",
+        "type": "string",
+        "default": null,
+        "source": null
+      }
+    ],
+    "mixins": []
+  },
+  "b-btn-close": {
+    "props": [
+      {
+        "name": "ariaLabel",
+        "type": "string",
+        "default": "'Close'",
+        "source": null
+      },
+      {
+        "name": "disabled",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "textVariant",
+        "type": "string",
+        "default": null,
+        "source": null
+      }
+    ],
+    "mixins": []
+  },
+  "b-button-group": {
+    "props": [
+      {
+        "name": "ariaRole",
+        "type": "string",
+        "default": "'group'",
+        "source": null
+      },
+      {
+        "name": "size",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "tag",
+        "type": "string",
+        "default": "'div'",
+        "source": null
+      },
+      {
+        "name": "vertical",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      }
+    ],
+    "mixins": []
+  },
+  "b-btn-group": {
+    "props": [
+      {
+        "name": "ariaRole",
+        "type": "string",
+        "default": "'group'",
+        "source": null
+      },
+      {
+        "name": "size",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "tag",
+        "type": "string",
+        "default": "'div'",
+        "source": null
+      },
+      {
+        "name": "vertical",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      }
+    ],
+    "mixins": []
+  },
+  "b-button-toolbar": {
+    "props": [
+      {
+        "name": "justify",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "keyNav",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      }
+    ],
+    "mixins": []
+  },
+  "b-btn-toolbar": {
+    "props": [
+      {
+        "name": "justify",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "keyNav",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      }
+    ],
+    "mixins": []
+  },
+  "b-input-group": {
+    "props": [
+      {
+        "name": "append",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "appendHTML",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "id",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "prepend",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "prependHTML",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "size",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "tag",
+        "type": "string",
+        "default": "'div'",
+        "source": null
+      }
+    ],
+    "mixins": []
+  },
+  "b-input-group-addon": {
+    "props": [
+      {
+        "name": "append",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "id",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "isText",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "tag",
+        "type": "string",
+        "default": "'div'",
+        "source": null
+      }
+    ],
+    "mixins": []
+  },
+  "b-input-group-prepend": {
+    "props": [
+      {
+        "name": "id",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "isText",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "tag",
+        "type": "string",
+        "default": "'div'",
+        "source": null
+      }
+    ],
+    "mixins": []
+  },
+  "b-input-group-append": {
+    "props": [
+      {
+        "name": "id",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "isText",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "tag",
+        "type": "string",
+        "default": "'div'",
+        "source": null
+      }
+    ],
+    "mixins": []
+  },
+  "b-input-group-text": {
+    "props": [
+      {
+        "name": "tag",
+        "type": "string",
+        "default": "'div'",
+        "source": null
+      }
+    ],
+    "mixins": []
+  },
+  "b-card": {
+    "props": [
+      {
+        "name": "align",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "bgVariant",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "bodyBgVariant",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "bodyBorderVariant",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "bodyClass",
+        "type": [
+          "string",
+          "object",
+          "array"
+        ],
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "bodyTag",
+        "type": "string",
+        "default": "'div'",
+        "source": null
+      },
+      {
+        "name": "bodyTextVariant",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "borderVariant",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "footer",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "footerBgVariant",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "footerBorderVariant",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "footerClass",
+        "type": [
+          "string",
+          "object",
+          "array"
+        ],
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "footerHtml",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "footerTag",
+        "type": "string",
+        "default": "'div'",
+        "source": null
+      },
+      {
+        "name": "footerTextVariant",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "header",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "headerBgVariant",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "headerBorderVariant",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "headerClass",
+        "type": [
+          "string",
+          "object",
+          "array"
+        ],
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "headerHtml",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "headerTag",
+        "type": "string",
+        "default": "'div'",
+        "source": null
+      },
+      {
+        "name": "headerTextVariant",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "imgAlt",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "imgBottom",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "imgEnd",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "imgHeight",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "imgLeft",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "imgRight",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "imgSrc",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "imgStart",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "imgTop",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "imgWidth",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "noBody",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "overlay",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "subTitle",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "subTitleTag",
+        "type": "string",
+        "default": "'h6'",
+        "source": null
+      },
+      {
+        "name": "subTitleTextVariant",
+        "type": "string",
+        "default": "'muted'",
+        "source": null
+      },
+      {
+        "name": "tag",
+        "type": "string",
+        "default": "'div'",
+        "source": null
+      },
+      {
+        "name": "textVariant",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "title",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "titleTag",
+        "type": "string",
+        "default": "'h4'",
+        "source": null
+      }
+    ],
+    "mixins": []
+  },
+  "b-card-header": {
+    "props": [
+      {
+        "name": "header",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "headerBgVariant",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "headerBorderVariant",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "headerClass",
+        "type": [
+          "string",
+          "object",
+          "array"
+        ],
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "headerHtml",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "headerTag",
+        "type": "string",
+        "default": "'div'",
+        "source": null
+      },
+      {
+        "name": "headerTextVariant",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      }
+    ],
+    "mixins": []
+  },
+  "b-card-body": {
+    "props": [
+      {
+        "name": "bodyBgVariant",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "bodyBorderVariant",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "bodyClass",
+        "type": [
+          "string",
+          "object",
+          "array"
+        ],
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "bodyTag",
+        "type": "string",
+        "default": "'div'",
+        "source": null
+      },
+      {
+        "name": "bodyTextVariant",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "overlay",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "subTitle",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "subTitleTag",
+        "type": "string",
+        "default": "'h6'",
+        "source": null
+      },
+      {
+        "name": "subTitleTextVariant",
+        "type": "string",
+        "default": "'muted'",
+        "source": null
+      },
+      {
+        "name": "title",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "titleTag",
+        "type": "string",
+        "default": "'h4'",
+        "source": null
+      }
+    ],
+    "mixins": []
+  },
+  "b-card-title": {
+    "props": [
+      {
+        "name": "title",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "titleTag",
+        "type": "string",
+        "default": "'h4'",
+        "source": null
+      }
+    ],
+    "mixins": []
+  },
+  "b-card-sub-title": {
+    "props": [
+      {
+        "name": "subTitle",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "subTitleTag",
+        "type": "string",
+        "default": "'h6'",
+        "source": null
+      },
+      {
+        "name": "subTitleTextVariant",
+        "type": "string",
+        "default": "'muted'",
+        "source": null
+      }
+    ],
+    "mixins": []
+  },
+  "b-card-footer": {
+    "props": [
+      {
+        "name": "footer",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "footerBgVariant",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "footerBorderVariant",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "footerClass",
+        "type": [
+          "string",
+          "object",
+          "array"
+        ],
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "footerHtml",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "footerTag",
+        "type": "string",
+        "default": "'div'",
+        "source": null
+      },
+      {
+        "name": "footerTextVariant",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      }
+    ],
+    "mixins": []
+  },
+  "b-card-img": {
+    "props": [
+      {
+        "name": "alt",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "bottom",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "end",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "height",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "left",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "right",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "src",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "start",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "top",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "width",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      }
+    ],
+    "mixins": []
+  },
+  "b-card-img-lazy": {
+    "props": [
+      {
+        "name": "alt",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "blankColor",
+        "type": "string",
+        "default": "'transparent'",
+        "source": null
+      },
+      {
+        "name": "blankHeight",
+        "type": [
+          "number",
+          "string"
+        ],
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "blankSrc",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "blankWidth",
+        "type": [
+          "number",
+          "string"
+        ],
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "bottom",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "end",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "height",
+        "type": [
+          "number",
+          "string"
+        ],
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "left",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "offset",
+        "type": [
+          "number",
+          "string"
+        ],
+        "default": 360,
+        "source": null
+      },
+      {
+        "name": "right",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "show",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "src",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "start",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "throttle",
+        "type": [
+          "number",
+          "string"
+        ],
+        "default": 100,
+        "source": null
+      },
+      {
+        "name": "top",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "width",
+        "type": [
+          "number",
+          "string"
+        ],
+        "default": "undefined",
+        "source": null
+      }
+    ],
+    "mixins": []
+  },
+  "b-card-text": {
+    "props": [
+      {
+        "name": "textTag",
+        "type": "string",
+        "default": "'p'",
+        "source": null
+      }
+    ],
+    "mixins": []
+  },
+  "b-card-group": {
+    "props": [
+      {
+        "name": "columns",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "deck",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "tag",
+        "type": "string",
+        "default": "'div'",
+        "source": null
+      }
+    ],
+    "mixins": []
+  },
+  "b-carousel": {
+    "props": [
+      {
+        "name": "background",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "controls",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "fade",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "id",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "imgHeight",
+        "type": [
+          "number",
+          "string"
+        ],
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "imgWidth",
+        "type": [
+          "number",
+          "string"
+        ],
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "indicators",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "interval",
+        "type": "number",
+        "default": 5000,
+        "source": null
+      },
+      {
+        "name": "labelGotoSlide",
+        "type": "string",
+        "default": "'Goto Slide'",
+        "source": null
+      },
+      {
+        "name": "labelIndicators",
+        "type": "string",
+        "default": "'Select a slide to display'",
+        "source": null
+      },
+      {
+        "name": "labelNext",
+        "type": "string",
+        "default": "'Next Slide'",
+        "source": null
+      },
+      {
+        "name": "labelPrev",
+        "type": "string",
+        "default": "'Previous Slide'",
+        "source": null
+      },
+      {
+        "name": "noAnimation",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "noHoverPause",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "noTouch",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "value",
+        "type": "number",
+        "default": 0,
+        "source": null
+      }
+    ],
+    "mixins": []
+  },
+  "b-carousel-slide": {
+    "props": [
+      {
+        "name": "background",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "caption",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "captionHtml",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "captionTag",
+        "type": "string",
+        "default": "'h3'",
+        "source": null
+      },
+      {
+        "name": "contentTag",
+        "type": "string",
+        "default": "'div'",
+        "source": null
+      },
+      {
+        "name": "contentVisibleUp",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "id",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "imgAlt",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "imgBlank",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "imgBlankColor",
+        "type": "string",
+        "default": "'transparent'",
+        "source": null
+      },
+      {
+        "name": "imgHeight",
+        "type": [
+          "number",
+          "string"
+        ],
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "imgSrc",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "imgWidth",
+        "type": [
+          "number",
+          "string"
+        ],
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "text",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "textHtml",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "textTag",
+        "type": "string",
+        "default": "'p'",
+        "source": null
+      }
+    ],
+    "mixins": []
+  },
+  "b-container": {
+    "props": [
+      {
+        "name": "fluid",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "tag",
+        "type": "string",
+        "default": "'div'",
+        "source": null
+      }
+    ],
+    "mixins": []
+  },
+  "b-row": {
+    "props": [
+      {
+        "name": "alignContent",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "alignH",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "alignV",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "noGutters",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "tag",
+        "type": "string",
+        "default": "'div'",
+        "source": null
+      }
+    ],
+    "mixins": []
+  },
+  "b-col": {
+    "props": [
+      {
+        "name": "alignSelf",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "col",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "cols",
+        "type": [
+          "string",
+          "number"
+        ],
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "lg",
+        "type": [
+          "boolean",
+          "string",
+          "number"
+        ],
+        "default": false,
+        "source": null
+      },
+      {
+        "name": "md",
+        "type": [
+          "boolean",
+          "string",
+          "number"
+        ],
+        "default": false,
+        "source": null
+      },
+      {
+        "name": "offset",
+        "type": [
+          "string",
+          "number"
+        ],
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "offsetLg",
+        "type": [
+          "string",
+          "number"
+        ],
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "offsetMd",
+        "type": [
+          "string",
+          "number"
+        ],
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "offsetSm",
+        "type": [
+          "string",
+          "number"
+        ],
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "offsetXl",
+        "type": [
+          "string",
+          "number"
+        ],
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "order",
+        "type": [
+          "string",
+          "number"
+        ],
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "orderLg",
+        "type": [
+          "string",
+          "number"
+        ],
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "orderMd",
+        "type": [
+          "string",
+          "number"
+        ],
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "orderSm",
+        "type": [
+          "string",
+          "number"
+        ],
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "orderXl",
+        "type": [
+          "string",
+          "number"
+        ],
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "sm",
+        "type": [
+          "boolean",
+          "string",
+          "number"
+        ],
+        "default": false,
+        "source": null
+      },
+      {
+        "name": "tag",
+        "type": "string",
+        "default": "'div'",
+        "source": null
+      },
+      {
+        "name": "xl",
+        "type": [
+          "boolean",
+          "string",
+          "number"
+        ],
+        "default": false,
+        "source": null
+      }
+    ],
+    "mixins": []
+  },
+  "b-form-row": {
+    "props": [
+      {
+        "name": "tag",
+        "type": "string",
+        "default": "'div'",
+        "source": null
+      }
+    ],
+    "mixins": []
+  },
+  "b-collapse": {
+    "props": [
+      {
+        "name": "accordion",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "id",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "isNav",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "tag",
+        "type": "string",
+        "default": "'div'",
+        "source": null
+      },
+      {
+        "name": "visible",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      }
+    ],
+    "mixins": []
+  },
+  "b-dropdown": {
+    "props": [
+      {
+        "name": "boundary",
+        "type": [
+          "string",
+          "object"
+        ],
+        "default": "scrollParent",
+        "source": null
+      },
+      {
+        "name": "disabled",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "dropleft",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "dropright",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "dropup",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "html",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "id",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "menuClass",
+        "type": [
+          "string",
+          "array"
+        ],
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "noCaret",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "noFlip",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "offset",
+        "type": [
+          "number",
+          "string"
+        ],
+        "default": 0,
+        "source": null
+      },
+      {
+        "name": "popperOpts",
+        "type": "any",
+        "source": null
+      },
+      {
+        "name": "right",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "role",
+        "type": "string",
+        "default": "'menu'",
+        "source": null
+      },
+      {
+        "name": "size",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "split",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "splitHref",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "splitTo",
+        "type": [
+          "string",
+          "object"
+        ],
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "splitVariant",
+        "type": "string",
+        "default": null,
+        "source": null
+      },
+      {
+        "name": "text",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "toggleClass",
+        "type": [
+          "string",
+          "array"
+        ],
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "toggleTag",
+        "type": "string",
+        "default": "'button'",
+        "source": null
+      },
+      {
+        "name": "toggleText",
+        "type": "string",
+        "default": "'Toggle Dropdown'",
+        "source": null
+      },
+      {
+        "name": "variant",
+        "type": "string",
+        "default": "'secondary'",
+        "source": null
+      }
+    ],
+    "mixins": []
+  },
+  "b-dd": {
+    "props": [
+      {
+        "name": "boundary",
+        "type": [
+          "string",
+          "object"
+        ],
+        "default": "scrollParent",
+        "source": null
+      },
+      {
+        "name": "disabled",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "dropleft",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "dropright",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "dropup",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "html",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "id",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "menuClass",
+        "type": [
+          "string",
+          "array"
+        ],
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "noCaret",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "noFlip",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "offset",
+        "type": [
+          "number",
+          "string"
+        ],
+        "default": 0,
+        "source": null
+      },
+      {
+        "name": "popperOpts",
+        "type": "any",
+        "source": null
+      },
+      {
+        "name": "right",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "role",
+        "type": "string",
+        "default": "'menu'",
+        "source": null
+      },
+      {
+        "name": "size",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "split",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "splitHref",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "splitTo",
+        "type": [
+          "string",
+          "object"
+        ],
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "splitVariant",
+        "type": "string",
+        "default": null,
+        "source": null
+      },
+      {
+        "name": "text",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "toggleClass",
+        "type": [
+          "string",
+          "array"
+        ],
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "toggleTag",
+        "type": "string",
+        "default": "'button'",
+        "source": null
+      },
+      {
+        "name": "toggleText",
+        "type": "string",
+        "default": "'Toggle Dropdown'",
+        "source": null
+      },
+      {
+        "name": "variant",
+        "type": "string",
+        "default": "'secondary'",
+        "source": null
+      }
+    ],
+    "mixins": []
+  },
+  "b-dropdown-item": {
+    "props": [
+      {
+        "name": "active",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "activeClass",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "append",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "disabled",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "event",
+        "type": [
+          "string",
+          "array"
+        ],
+        "default": "click",
+        "source": null
+      },
+      {
+        "name": "exact",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "exactActiveClass",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "href",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "noPrefetch",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "rel",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "replace",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "routerTag",
+        "type": "string",
+        "default": "'a'",
+        "source": null
+      },
+      {
+        "name": "target",
+        "type": "string",
+        "default": "'_self'",
+        "source": null
+      },
+      {
+        "name": "to",
+        "type": [
+          "string",
+          "object"
+        ],
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "variant",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      }
+    ],
+    "mixins": []
+  },
+  "b-dd-item": {
+    "props": [
+      {
+        "name": "active",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "activeClass",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "append",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "disabled",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "event",
+        "type": [
+          "string",
+          "array"
+        ],
+        "default": "click",
+        "source": null
+      },
+      {
+        "name": "exact",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "exactActiveClass",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "href",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "noPrefetch",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "rel",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "replace",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "routerTag",
+        "type": "string",
+        "default": "'a'",
+        "source": null
+      },
+      {
+        "name": "target",
+        "type": "string",
+        "default": "'_self'",
+        "source": null
+      },
+      {
+        "name": "to",
+        "type": [
+          "string",
+          "object"
+        ],
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "variant",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      }
+    ],
+    "mixins": []
+  },
+  "b-dropdown-item-button": {
+    "props": [
+      {
+        "name": "active",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "activeClass",
+        "type": "string",
+        "default": "'active'",
+        "source": null
+      },
+      {
+        "name": "disabled",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "variant",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      }
+    ],
+    "mixins": []
+  },
+  "b-dropdown-item-btn": {
+    "props": [
+      {
+        "name": "active",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "activeClass",
+        "type": "string",
+        "default": "'active'",
+        "source": null
+      },
+      {
+        "name": "disabled",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "variant",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      }
+    ],
+    "mixins": []
+  },
+  "b-dd-item-button": {
+    "props": [
+      {
+        "name": "active",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "activeClass",
+        "type": "string",
+        "default": "'active'",
+        "source": null
+      },
+      {
+        "name": "disabled",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "variant",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      }
+    ],
+    "mixins": []
+  },
+  "b-dd-item-btn": {
+    "props": [
+      {
+        "name": "active",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "activeClass",
+        "type": "string",
+        "default": "'active'",
+        "source": null
+      },
+      {
+        "name": "disabled",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "variant",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      }
+    ],
+    "mixins": []
+  },
+  "b-dropdown-header": {
+    "props": [
+      {
+        "name": "id",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "tag",
+        "type": "string",
+        "default": "'header'",
+        "source": null
+      },
+      {
+        "name": "variant",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      }
+    ],
+    "mixins": []
+  },
+  "b-dd-header": {
+    "props": [
+      {
+        "name": "id",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "tag",
+        "type": "string",
+        "default": "'header'",
+        "source": null
+      },
+      {
+        "name": "variant",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      }
+    ],
+    "mixins": []
+  },
+  "b-dropdown-divider": {
+    "props": [
+      {
+        "name": "tag",
+        "type": "string",
+        "default": "'hr'",
+        "source": null
+      }
+    ],
+    "mixins": []
+  },
+  "b-dd-divider": {
+    "props": [
+      {
+        "name": "tag",
+        "type": "string",
+        "default": "'hr'",
+        "source": null
+      }
+    ],
+    "mixins": []
+  },
+  "b-dropdown-form": {
+    "props": [
+      {
+        "name": "disabled",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "id",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "inline",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "novalidate",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "validated",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      }
+    ],
+    "mixins": []
+  },
+  "b-dd-form": {
+    "props": [
+      {
+        "name": "disabled",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "id",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "inline",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "novalidate",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "validated",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      }
+    ],
+    "mixins": []
+  },
+  "b-dropdown-text": {
+    "props": [
+      {
+        "name": "tag",
+        "type": "string",
+        "default": "'p'",
+        "source": null
+      },
+      {
+        "name": "variant",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      }
+    ],
+    "mixins": []
+  },
+  "b-dd-text": {
+    "props": [
+      {
+        "name": "tag",
+        "type": "string",
+        "default": "'p'",
+        "source": null
+      },
+      {
+        "name": "variant",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      }
+    ],
+    "mixins": []
+  },
+  "b-dropdown-group": {
+    "props": [
+      {
+        "name": "ariaDescribedby",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "header",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "headerClasses",
+        "type": [
+          "string",
+          "array",
+          "object"
+        ],
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "headerTag",
+        "type": "string",
+        "default": "'header'",
+        "source": null
+      },
+      {
+        "name": "headerVariant",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "id",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      }
+    ],
+    "mixins": []
+  },
+  "b-dd-group": {
+    "props": [
+      {
+        "name": "ariaDescribedby",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "header",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "headerClasses",
+        "type": [
+          "string",
+          "array",
+          "object"
+        ],
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "headerTag",
+        "type": "string",
+        "default": "'header'",
+        "source": null
+      },
+      {
+        "name": "headerVariant",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "id",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      }
+    ],
+    "mixins": []
+  },
+  "b-embed": {
+    "props": [
+      {
+        "name": "aspect",
+        "type": "string",
+        "default": "'16by9'",
+        "source": null
+      },
+      {
+        "name": "tag",
+        "type": "string",
+        "default": "'div'",
+        "source": null
+      },
+      {
+        "name": "type",
+        "type": "string",
+        "default": "'iframe'",
+        "source": null
+      }
+    ],
+    "mixins": []
+  },
+  "b-form": {
+    "props": [
+      {
+        "name": "id",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "inline",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "novalidate",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "validated",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      }
+    ],
+    "mixins": []
+  },
+  "b-form-datalist": {
+    "props": [
+      {
+        "name": "disabledField",
+        "type": "string",
+        "default": "'disabled'",
+        "source": null
+      },
+      {
+        "name": "htmlField",
+        "type": "string",
+        "default": "'html'",
+        "source": null
+      },
+      {
+        "name": "id",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "options",
+        "type": [
+          "array",
+          "object"
+        ],
+        "default": [],
+        "source": null
+      },
+      {
+        "name": "textField",
+        "type": "string",
+        "default": "'text'",
+        "source": null
+      },
+      {
+        "name": "valueField",
+        "type": "string",
+        "default": "'value'",
+        "source": null
+      }
+    ],
+    "mixins": []
+  },
+  "b-datalist": {
+    "props": [
+      {
+        "name": "disabledField",
+        "type": "string",
+        "default": "'disabled'",
+        "source": null
+      },
+      {
+        "name": "htmlField",
+        "type": "string",
+        "default": "'html'",
+        "source": null
+      },
+      {
+        "name": "id",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "options",
+        "type": [
+          "array",
+          "object"
+        ],
+        "default": [],
+        "source": null
+      },
+      {
+        "name": "textField",
+        "type": "string",
+        "default": "'text'",
+        "source": null
+      },
+      {
+        "name": "valueField",
+        "type": "string",
+        "default": "'value'",
+        "source": null
+      }
+    ],
+    "mixins": []
+  },
+  "b-form-text": {
+    "props": [
+      {
+        "name": "id",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "inline",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "tag",
+        "type": "string",
+        "default": "'small'",
+        "source": null
+      },
+      {
+        "name": "textVariant",
+        "type": "string",
+        "default": "'muted'",
+        "source": null
+      }
+    ],
+    "mixins": []
+  },
+  "b-form-invalid-feedback": {
+    "props": [
+      {
+        "name": "ariaLive",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "forceShow",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "id",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "role",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "state",
+        "type": [
+          "boolean",
+          "string"
+        ],
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "tag",
+        "type": "string",
+        "default": "'div'",
+        "source": null
+      },
+      {
+        "name": "tooltip",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      }
+    ],
+    "mixins": []
+  },
+  "b-form-feedback": {
+    "props": [
+      {
+        "name": "ariaLive",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "forceShow",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "id",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "role",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "state",
+        "type": [
+          "boolean",
+          "string"
+        ],
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "tag",
+        "type": "string",
+        "default": "'div'",
+        "source": null
+      },
+      {
+        "name": "tooltip",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      }
+    ],
+    "mixins": []
+  },
+  "b-form-valid-feedback": {
+    "props": [
+      {
+        "name": "ariaLive",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "forceShow",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "id",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "role",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "state",
+        "type": [
+          "boolean",
+          "string"
+        ],
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "tag",
+        "type": "string",
+        "default": "'div'",
+        "source": null
+      },
+      {
+        "name": "tooltip",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      }
+    ],
+    "mixins": []
+  },
+  "b-form-group": {
+    "props": [
+      {
+        "name": "breakpoint",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "description",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "disabled",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "feedbackAriaLive",
+        "type": "string",
+        "default": "'assertive'",
+        "source": null
+      },
+      {
+        "name": "horizontal",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "id",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "invalidFeedback",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "label",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "labelAlign",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "labelAlignLg",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "labelAlignMd",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "labelAlignSm",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "labelAlignXl",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "labelClass",
+        "type": [
+          "string",
+          "array",
+          "object"
+        ],
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "labelCols",
+        "type": [
+          "number",
+          "string",
+          "boolean"
+        ],
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "labelColsLg",
+        "type": [
+          "number",
+          "string",
+          "boolean"
+        ],
+        "default": false,
+        "source": null
+      },
+      {
+        "name": "labelColsMd",
+        "type": [
+          "number",
+          "string",
+          "boolean"
+        ],
+        "default": false,
+        "source": null
+      },
+      {
+        "name": "labelColsSm",
+        "type": [
+          "number",
+          "string",
+          "boolean"
+        ],
+        "default": false,
+        "source": null
+      },
+      {
+        "name": "labelColsXl",
+        "type": [
+          "number",
+          "string",
+          "boolean"
+        ],
+        "default": false,
+        "source": null
+      },
+      {
+        "name": "labelFor",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "labelSize",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "labelSrOnly",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "state",
+        "type": [
+          "string",
+          "boolean"
+        ],
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "tooltip",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "validFeedback",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "validated",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      }
+    ],
+    "mixins": []
+  },
+  "b-form-fieldset": {
+    "props": [
+      {
+        "name": "breakpoint",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "description",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "disabled",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "feedbackAriaLive",
+        "type": "string",
+        "default": "'assertive'",
+        "source": null
+      },
+      {
+        "name": "horizontal",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "id",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "invalidFeedback",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "label",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "labelAlign",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "labelAlignLg",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "labelAlignMd",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "labelAlignSm",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "labelAlignXl",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "labelClass",
+        "type": [
+          "string",
+          "array",
+          "object"
+        ],
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "labelCols",
+        "type": [
+          "number",
+          "string",
+          "boolean"
+        ],
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "labelColsLg",
+        "type": [
+          "number",
+          "string",
+          "boolean"
+        ],
+        "default": false,
+        "source": null
+      },
+      {
+        "name": "labelColsMd",
+        "type": [
+          "number",
+          "string",
+          "boolean"
+        ],
+        "default": false,
+        "source": null
+      },
+      {
+        "name": "labelColsSm",
+        "type": [
+          "number",
+          "string",
+          "boolean"
+        ],
+        "default": false,
+        "source": null
+      },
+      {
+        "name": "labelColsXl",
+        "type": [
+          "number",
+          "string",
+          "boolean"
+        ],
+        "default": false,
+        "source": null
+      },
+      {
+        "name": "labelFor",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "labelSize",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "labelSrOnly",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "state",
+        "type": [
+          "string",
+          "boolean"
+        ],
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "tooltip",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "validFeedback",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "validated",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      }
+    ],
+    "mixins": []
+  },
+  "b-form-checkbox": {
+    "props": [
+      {
+        "name": "ariaLabel",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "ariaLabelledby",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "autofocus",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "button",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "buttonVariant",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "checked",
+        "type": [
+          "string",
+          "number",
+          "object",
+          "array",
+          "boolean"
+        ],
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "disabled",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "form",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "id",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "indeterminate",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "inline",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "name",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "plain",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "required",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "size",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "state",
+        "type": [
+          "string",
+          "boolean"
+        ],
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "switch",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "uncheckedValue",
+        "type": "any",
+        "default": false,
+        "source": null
+      },
+      {
+        "name": "value",
+        "type": "any",
+        "default": true,
+        "source": null
+      }
+    ],
+    "mixins": []
+  },
+  "b-checkbox": {
+    "props": [
+      {
+        "name": "ariaLabel",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "ariaLabelledby",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "autofocus",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "button",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "buttonVariant",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "checked",
+        "type": [
+          "string",
+          "number",
+          "object",
+          "array",
+          "boolean"
+        ],
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "disabled",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "form",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "id",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "indeterminate",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "inline",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "name",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "plain",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "required",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "size",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "state",
+        "type": [
+          "string",
+          "boolean"
+        ],
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "switch",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "uncheckedValue",
+        "type": "any",
+        "default": false,
+        "source": null
+      },
+      {
+        "name": "value",
+        "type": "any",
+        "default": true,
+        "source": null
+      }
+    ],
+    "mixins": []
+  },
+  "b-check": {
+    "props": [
+      {
+        "name": "ariaLabel",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "ariaLabelledby",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "autofocus",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "button",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "buttonVariant",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "checked",
+        "type": [
+          "string",
+          "number",
+          "object",
+          "array",
+          "boolean"
+        ],
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "disabled",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "form",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "id",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "indeterminate",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "inline",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "name",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "plain",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "required",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "size",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "state",
+        "type": [
+          "string",
+          "boolean"
+        ],
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "switch",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "uncheckedValue",
+        "type": "any",
+        "default": false,
+        "source": null
+      },
+      {
+        "name": "value",
+        "type": "any",
+        "default": true,
+        "source": null
+      }
+    ],
+    "mixins": []
+  },
+  "b-form-checkbox-group": {
+    "props": [
+      {
+        "name": "ariaInvalid",
+        "type": [
+          "boolean",
+          "string"
+        ],
+        "default": false,
+        "source": null
+      },
+      {
+        "name": "autofocus",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "buttonVariant",
+        "type": "string",
+        "default": "'secondary'",
+        "source": null
+      },
+      {
+        "name": "buttons",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "checked",
+        "type": [
+          "string",
+          "number",
+          "object",
+          "array",
+          "boolean"
+        ],
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "disabled",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "disabledField",
+        "type": "string",
+        "default": "'disabled'",
+        "source": null
+      },
+      {
+        "name": "form",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "htmlField",
+        "type": "string",
+        "default": "'html'",
+        "source": null
+      },
+      {
+        "name": "id",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "name",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "options",
+        "type": [
+          "array",
+          "object"
+        ],
+        "default": [],
+        "source": null
+      },
+      {
+        "name": "plain",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "required",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "size",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "stacked",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "state",
+        "type": [
+          "string",
+          "boolean"
+        ],
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "switches",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "textField",
+        "type": "string",
+        "default": "'text'",
+        "source": null
+      },
+      {
+        "name": "validated",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "valueField",
+        "type": "string",
+        "default": "'value'",
+        "source": null
+      }
+    ],
+    "mixins": []
+  },
+  "b-checkbox-group": {
+    "props": [
+      {
+        "name": "ariaInvalid",
+        "type": [
+          "boolean",
+          "string"
+        ],
+        "default": false,
+        "source": null
+      },
+      {
+        "name": "autofocus",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "buttonVariant",
+        "type": "string",
+        "default": "'secondary'",
+        "source": null
+      },
+      {
+        "name": "buttons",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "checked",
+        "type": [
+          "string",
+          "number",
+          "object",
+          "array",
+          "boolean"
+        ],
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "disabled",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "disabledField",
+        "type": "string",
+        "default": "'disabled'",
+        "source": null
+      },
+      {
+        "name": "form",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "htmlField",
+        "type": "string",
+        "default": "'html'",
+        "source": null
+      },
+      {
+        "name": "id",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "name",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "options",
+        "type": [
+          "array",
+          "object"
+        ],
+        "default": [],
+        "source": null
+      },
+      {
+        "name": "plain",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "required",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "size",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "stacked",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "state",
+        "type": [
+          "string",
+          "boolean"
+        ],
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "switches",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "textField",
+        "type": "string",
+        "default": "'text'",
+        "source": null
+      },
+      {
+        "name": "validated",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "valueField",
+        "type": "string",
+        "default": "'value'",
+        "source": null
+      }
+    ],
+    "mixins": []
+  },
+  "b-check-group": {
+    "props": [
+      {
+        "name": "ariaInvalid",
+        "type": [
+          "boolean",
+          "string"
+        ],
+        "default": false,
+        "source": null
+      },
+      {
+        "name": "autofocus",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "buttonVariant",
+        "type": "string",
+        "default": "'secondary'",
+        "source": null
+      },
+      {
+        "name": "buttons",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "checked",
+        "type": [
+          "string",
+          "number",
+          "object",
+          "array",
+          "boolean"
+        ],
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "disabled",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "disabledField",
+        "type": "string",
+        "default": "'disabled'",
+        "source": null
+      },
+      {
+        "name": "form",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "htmlField",
+        "type": "string",
+        "default": "'html'",
+        "source": null
+      },
+      {
+        "name": "id",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "name",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "options",
+        "type": [
+          "array",
+          "object"
+        ],
+        "default": [],
+        "source": null
+      },
+      {
+        "name": "plain",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "required",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "size",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "stacked",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "state",
+        "type": [
+          "string",
+          "boolean"
+        ],
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "switches",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "textField",
+        "type": "string",
+        "default": "'text'",
+        "source": null
+      },
+      {
+        "name": "validated",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "valueField",
+        "type": "string",
+        "default": "'value'",
+        "source": null
+      }
+    ],
+    "mixins": []
+  },
+  "b-form-radio": {
+    "props": [
+      {
+        "name": "ariaLabel",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "ariaLabelledby",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "autofocus",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "button",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "buttonVariant",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "checked",
+        "type": [
+          "string",
+          "object",
+          "number",
+          "boolean"
+        ],
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "disabled",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "form",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "id",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "inline",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "name",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "plain",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "required",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "size",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "state",
+        "type": [
+          "string",
+          "boolean"
+        ],
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "value",
+        "type": "any",
+        "default": "undefined",
+        "source": null
+      }
+    ],
+    "mixins": []
+  },
+  "b-radio": {
+    "props": [
+      {
+        "name": "ariaLabel",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "ariaLabelledby",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "autofocus",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "button",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "buttonVariant",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "checked",
+        "type": [
+          "string",
+          "object",
+          "number",
+          "boolean"
+        ],
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "disabled",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "form",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "id",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "inline",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "name",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "plain",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "required",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "size",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "state",
+        "type": [
+          "string",
+          "boolean"
+        ],
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "value",
+        "type": "any",
+        "default": "undefined",
+        "source": null
+      }
+    ],
+    "mixins": []
+  },
+  "b-form-radio-group": {
+    "props": [
+      {
+        "name": "ariaInvalid",
+        "type": [
+          "boolean",
+          "string"
+        ],
+        "default": false,
+        "source": null
+      },
+      {
+        "name": "autofocus",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "buttonVariant",
+        "type": "string",
+        "default": "'secondary'",
+        "source": null
+      },
+      {
+        "name": "buttons",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "checked",
+        "type": [
+          "string",
+          "object",
+          "number",
+          "boolean"
+        ],
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "disabled",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "disabledField",
+        "type": "string",
+        "default": "'disabled'",
+        "source": null
+      },
+      {
+        "name": "form",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "htmlField",
+        "type": "string",
+        "default": "'html'",
+        "source": null
+      },
+      {
+        "name": "id",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "name",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "options",
+        "type": [
+          "array",
+          "object"
+        ],
+        "default": [],
+        "source": null
+      },
+      {
+        "name": "plain",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "required",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "size",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "stacked",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "state",
+        "type": [
+          "string",
+          "boolean"
+        ],
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "textField",
+        "type": "string",
+        "default": "'text'",
+        "source": null
+      },
+      {
+        "name": "validated",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "valueField",
+        "type": "string",
+        "default": "'value'",
+        "source": null
+      }
+    ],
+    "mixins": []
+  },
+  "b-radio-group": {
+    "props": [
+      {
+        "name": "ariaInvalid",
+        "type": [
+          "boolean",
+          "string"
+        ],
+        "default": false,
+        "source": null
+      },
+      {
+        "name": "autofocus",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "buttonVariant",
+        "type": "string",
+        "default": "'secondary'",
+        "source": null
+      },
+      {
+        "name": "buttons",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "checked",
+        "type": [
+          "string",
+          "object",
+          "number",
+          "boolean"
+        ],
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "disabled",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "disabledField",
+        "type": "string",
+        "default": "'disabled'",
+        "source": null
+      },
+      {
+        "name": "form",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "htmlField",
+        "type": "string",
+        "default": "'html'",
+        "source": null
+      },
+      {
+        "name": "id",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "name",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "options",
+        "type": [
+          "array",
+          "object"
+        ],
+        "default": [],
+        "source": null
+      },
+      {
+        "name": "plain",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "required",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "size",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "stacked",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "state",
+        "type": [
+          "string",
+          "boolean"
+        ],
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "textField",
+        "type": "string",
+        "default": "'text'",
+        "source": null
+      },
+      {
+        "name": "validated",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "valueField",
+        "type": "string",
+        "default": "'value'",
+        "source": null
+      }
+    ],
+    "mixins": []
+  },
+  "b-form-input": {
+    "props": [
+      {
+        "name": "ariaInvalid",
+        "type": [
+          "boolean",
+          "string"
+        ],
+        "default": false,
+        "source": null
+      },
+      {
+        "name": "autocomplete",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "autofocus",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "disabled",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "form",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "formatter",
+        "type": "function",
+        "default": "null",
+        "source": null
+      },
+      {
+        "name": "id",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "lazyFormatter",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "list",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "max",
+        "type": [
+          "string",
+          "number"
+        ],
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "min",
+        "type": [
+          "string",
+          "number"
+        ],
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "name",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "noWheel",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "number",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "placeholder",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "plaintext",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "readonly",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "required",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "size",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "state",
+        "type": [
+          "string",
+          "boolean"
+        ],
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "step",
+        "type": [
+          "string",
+          "number"
+        ],
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "trim",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "type",
+        "type": "string",
+        "default": "'text'",
+        "source": null
+      },
+      {
+        "name": "value",
+        "type": [
+          "string",
+          "number"
+        ],
+        "default": "undefined",
+        "source": null
+      }
+    ],
+    "mixins": []
+  },
+  "b-input": {
+    "props": [
+      {
+        "name": "ariaInvalid",
+        "type": [
+          "boolean",
+          "string"
+        ],
+        "default": false,
+        "source": null
+      },
+      {
+        "name": "autocomplete",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "autofocus",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "disabled",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "form",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "formatter",
+        "type": "function",
+        "default": "null",
+        "source": null
+      },
+      {
+        "name": "id",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "lazyFormatter",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "list",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "max",
+        "type": [
+          "string",
+          "number"
+        ],
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "min",
+        "type": [
+          "string",
+          "number"
+        ],
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "name",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "noWheel",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "number",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "placeholder",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "plaintext",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "readonly",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "required",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "size",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "state",
+        "type": [
+          "string",
+          "boolean"
+        ],
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "step",
+        "type": [
+          "string",
+          "number"
+        ],
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "trim",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "type",
+        "type": "string",
+        "default": "'text'",
+        "source": null
+      },
+      {
+        "name": "value",
+        "type": [
+          "string",
+          "number"
+        ],
+        "default": "undefined",
+        "source": null
+      }
+    ],
+    "mixins": []
+  },
+  "b-form-textarea": {
+    "props": [
+      {
+        "name": "ariaInvalid",
+        "type": [
+          "boolean",
+          "string"
+        ],
+        "default": false,
+        "source": null
+      },
+      {
+        "name": "autocomplete",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "autofocus",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "disabled",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "form",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "formatter",
+        "type": "function",
+        "default": "null",
+        "source": null
+      },
+      {
+        "name": "id",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "lazyFormatter",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "maxRows",
+        "type": [
+          "number",
+          "string"
+        ],
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "name",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "noAutoShrink",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "noResize",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "number",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "placeholder",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "plaintext",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "readonly",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "required",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "rows",
+        "type": [
+          "number",
+          "string"
+        ],
+        "default": 2,
+        "source": null
+      },
+      {
+        "name": "size",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "state",
+        "type": [
+          "string",
+          "boolean"
+        ],
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "trim",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "value",
+        "type": [
+          "string",
+          "number"
+        ],
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "wrap",
+        "type": "string",
+        "default": "'soft'",
+        "source": null
+      }
+    ],
+    "mixins": []
+  },
+  "b-textarea": {
+    "props": [
+      {
+        "name": "ariaInvalid",
+        "type": [
+          "boolean",
+          "string"
+        ],
+        "default": false,
+        "source": null
+      },
+      {
+        "name": "autocomplete",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "autofocus",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "disabled",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "form",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "formatter",
+        "type": "function",
+        "default": "null",
+        "source": null
+      },
+      {
+        "name": "id",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "lazyFormatter",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "maxRows",
+        "type": [
+          "number",
+          "string"
+        ],
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "name",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "noAutoShrink",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "noResize",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "number",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "placeholder",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "plaintext",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "readonly",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "required",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "rows",
+        "type": [
+          "number",
+          "string"
+        ],
+        "default": 2,
+        "source": null
+      },
+      {
+        "name": "size",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "state",
+        "type": [
+          "string",
+          "boolean"
+        ],
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "trim",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "value",
+        "type": [
+          "string",
+          "number"
+        ],
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "wrap",
+        "type": "string",
+        "default": "'soft'",
+        "source": null
+      }
+    ],
+    "mixins": []
+  },
+  "b-form-file": {
+    "props": [
+      {
+        "name": "accept",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "autofocus",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "browseText",
+        "type": "string",
+        "default": "'Browse'",
+        "source": null
+      },
+      {
+        "name": "capture",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "directory",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "disabled",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "dropPlaceholder",
+        "type": "string",
+        "default": "'Drop files here'",
+        "source": null
+      },
+      {
+        "name": "fileNameFormatter",
+        "type": "function",
+        "default": "null",
+        "source": null
+      },
+      {
+        "name": "form",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "id",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "multiple",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "name",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "noDrop",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "noTraverse",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "placeholder",
+        "type": "string",
+        "default": "'No file chosen'",
+        "source": null
+      },
+      {
+        "name": "plain",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "required",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "state",
+        "type": [
+          "string",
+          "boolean"
+        ],
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "value",
+        "type": "any",
+        "default": "undefined",
+        "source": null
+      }
+    ],
+    "mixins": []
+  },
+  "b-file": {
+    "props": [
+      {
+        "name": "accept",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "autofocus",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "browseText",
+        "type": "string",
+        "default": "'Browse'",
+        "source": null
+      },
+      {
+        "name": "capture",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "directory",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "disabled",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "dropPlaceholder",
+        "type": "string",
+        "default": "'Drop files here'",
+        "source": null
+      },
+      {
+        "name": "fileNameFormatter",
+        "type": "function",
+        "default": "null",
+        "source": null
+      },
+      {
+        "name": "form",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "id",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "multiple",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "name",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "noDrop",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "noTraverse",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "placeholder",
+        "type": "string",
+        "default": "'No file chosen'",
+        "source": null
+      },
+      {
+        "name": "plain",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "required",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "state",
+        "type": [
+          "string",
+          "boolean"
+        ],
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "value",
+        "type": "any",
+        "default": "undefined",
+        "source": null
+      }
+    ],
+    "mixins": []
+  },
+  "b-form-select": {
+    "props": [
+      {
+        "name": "ariaInvalid",
+        "type": [
+          "boolean",
+          "string"
+        ],
+        "default": false,
+        "source": null
+      },
+      {
+        "name": "autofocus",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "disabled",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "disabledField",
+        "type": "string",
+        "default": "'disabled'",
+        "source": null
+      },
+      {
+        "name": "form",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "htmlField",
+        "type": "string",
+        "default": "'html'",
+        "source": null
+      },
+      {
+        "name": "id",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "multiple",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "name",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "options",
+        "type": [
+          "array",
+          "object"
+        ],
+        "default": [],
+        "source": null
+      },
+      {
+        "name": "plain",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "required",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "selectSize",
+        "type": "number",
+        "default": 0,
+        "source": null
+      },
+      {
+        "name": "size",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "state",
+        "type": [
+          "string",
+          "boolean"
+        ],
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "textField",
+        "type": "string",
+        "default": "'text'",
+        "source": null
+      },
+      {
+        "name": "value",
+        "type": "any",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "valueField",
+        "type": "string",
+        "default": "'value'",
+        "source": null
+      }
+    ],
+    "mixins": []
+  },
+  "b-select": {
+    "props": [
+      {
+        "name": "ariaInvalid",
+        "type": [
+          "boolean",
+          "string"
+        ],
+        "default": false,
+        "source": null
+      },
+      {
+        "name": "autofocus",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "disabled",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "disabledField",
+        "type": "string",
+        "default": "'disabled'",
+        "source": null
+      },
+      {
+        "name": "form",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "htmlField",
+        "type": "string",
+        "default": "'html'",
+        "source": null
+      },
+      {
+        "name": "id",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "multiple",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "name",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "options",
+        "type": [
+          "array",
+          "object"
+        ],
+        "default": [],
+        "source": null
+      },
+      {
+        "name": "plain",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "required",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "selectSize",
+        "type": "number",
+        "default": 0,
+        "source": null
+      },
+      {
+        "name": "size",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "state",
+        "type": [
+          "string",
+          "boolean"
+        ],
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "textField",
+        "type": "string",
+        "default": "'text'",
+        "source": null
+      },
+      {
+        "name": "value",
+        "type": "any",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "valueField",
+        "type": "string",
+        "default": "'value'",
+        "source": null
+      }
+    ],
+    "mixins": []
+  },
+  "b-img": {
+    "props": [
+      {
+        "name": "alt",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "blank",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "blankColor",
+        "type": "string",
+        "default": "'transparent'",
+        "source": null
+      },
+      {
+        "name": "block",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "center",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "fluid",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "fluidGrow",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "height",
+        "type": [
+          "number",
+          "string"
+        ],
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "left",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "right",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "rounded",
+        "type": [
+          "boolean",
+          "string"
+        ],
+        "default": false,
+        "source": null
+      },
+      {
+        "name": "src",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "thumbnail",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "width",
+        "type": [
+          "number",
+          "string"
+        ],
+        "default": "undefined",
+        "source": null
+      }
+    ],
+    "mixins": []
+  },
+  "b-img-lazy": {
+    "props": [
+      {
+        "name": "alt",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "blankColor",
+        "type": "string",
+        "default": "'transparent'",
+        "source": null
+      },
+      {
+        "name": "blankHeight",
+        "type": [
+          "number",
+          "string"
+        ],
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "blankSrc",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "blankWidth",
+        "type": [
+          "number",
+          "string"
+        ],
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "block",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "center",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "fluid",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "fluidGrow",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "height",
+        "type": [
+          "number",
+          "string"
+        ],
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "left",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "offset",
+        "type": [
+          "number",
+          "string"
+        ],
+        "default": 360,
+        "source": null
+      },
+      {
+        "name": "right",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "rounded",
+        "type": [
+          "boolean",
+          "string"
+        ],
+        "default": false,
+        "source": null
+      },
+      {
+        "name": "show",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "src",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "throttle",
+        "type": [
+          "number",
+          "string"
+        ],
+        "default": 100,
+        "source": null
+      },
+      {
+        "name": "thumbnail",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "width",
+        "type": [
+          "number",
+          "string"
+        ],
+        "default": "undefined",
+        "source": null
+      }
+    ],
+    "mixins": []
+  },
+  "b-jumbotron": {
+    "props": [
+      {
+        "name": "bgVariant",
+        "type": "string",
+        "default": null,
+        "source": null
+      },
+      {
+        "name": "borderVariant",
+        "type": "string",
+        "default": null,
+        "source": null
+      },
+      {
+        "name": "containerFluid",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "fluid",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "header",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "headerHtml",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "headerLevel",
+        "type": [
+          "number",
+          "string"
+        ],
+        "default": "3",
+        "source": null
+      },
+      {
+        "name": "headerTag",
+        "type": "string",
+        "default": "'h1'",
+        "source": null
+      },
+      {
+        "name": "lead",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "leadHtml",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "leadTag",
+        "type": "string",
+        "default": "'p'",
+        "source": null
+      },
+      {
+        "name": "tag",
+        "type": "string",
+        "default": "'div'",
+        "source": null
+      },
+      {
+        "name": "textVariant",
+        "type": "string",
+        "default": null,
+        "source": null
+      }
+    ],
+    "mixins": []
+  },
+  "b-link": {
+    "props": [
+      {
+        "name": "active",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "activeClass",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "append",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "disabled",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "event",
+        "type": [
+          "string",
+          "array"
+        ],
+        "default": "click",
+        "source": null
+      },
+      {
+        "name": "exact",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "exactActiveClass",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "href",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "noPrefetch",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "rel",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "replace",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "routerTag",
+        "type": "string",
+        "default": "'a'",
+        "source": null
+      },
+      {
+        "name": "target",
+        "type": "string",
+        "default": "'_self'",
+        "source": null
+      },
+      {
+        "name": "to",
+        "type": [
+          "string",
+          "object"
+        ],
+        "default": "undefined",
+        "source": null
+      }
+    ],
+    "mixins": []
+  },
+  "b-list-group": {
+    "props": [
+      {
+        "name": "flush",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "horizontal",
+        "type": [
+          "boolean",
+          "string"
+        ],
+        "default": false,
+        "source": null
+      },
+      {
+        "name": "tag",
+        "type": "string",
+        "default": "'div'",
+        "source": null
+      }
+    ],
+    "mixins": []
+  },
+  "b-list-group-item": {
+    "props": [
+      {
+        "name": "action",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "active",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "activeClass",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "append",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "button",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "disabled",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "event",
+        "type": [
+          "string",
+          "array"
+        ],
+        "default": "click",
+        "source": null
+      },
+      {
+        "name": "exact",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "exactActiveClass",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "href",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "noPrefetch",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "rel",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "replace",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "routerTag",
+        "type": "string",
+        "default": "'a'",
+        "source": null
+      },
+      {
+        "name": "tag",
+        "type": "string",
+        "default": "'div'",
+        "source": null
+      },
+      {
+        "name": "target",
+        "type": "string",
+        "default": "'_self'",
+        "source": null
+      },
+      {
+        "name": "to",
+        "type": [
+          "string",
+          "object"
+        ],
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "variant",
+        "type": "string",
+        "default": null,
+        "source": null
+      }
+    ],
+    "mixins": []
+  },
+  "b-media": {
+    "props": [
+      {
+        "name": "noBody",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "rightAlign",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "tag",
+        "type": "string",
+        "default": "'div'",
+        "source": null
+      },
+      {
+        "name": "verticalAlign",
+        "type": "string",
+        "default": "'top'",
+        "source": null
+      }
+    ],
+    "mixins": []
+  },
+  "b-media-aside": {
+    "props": [
+      {
+        "name": "tag",
+        "type": "string",
+        "default": "'div'",
+        "source": null
+      },
+      {
+        "name": "verticalAlign",
+        "type": "string",
+        "default": "'top'",
+        "source": null
+      }
+    ],
+    "mixins": []
+  },
+  "b-media-body": {
+    "props": [
+      {
+        "name": "tag",
+        "type": "string",
+        "default": "'div'",
+        "source": null
+      }
+    ],
+    "mixins": []
+  },
+  "b-modal": {
+    "props": [
+      {
+        "name": "bodyBgVariant",
+        "type": "string",
+        "default": null,
+        "source": null
+      },
+      {
+        "name": "bodyClass",
+        "type": [
+          "string",
+          "array"
+        ],
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "bodyTextVariant",
+        "type": "string",
+        "default": null,
+        "source": null
+      },
+      {
+        "name": "busy",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "buttonSize",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "cancelDisabled",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "cancelTitle",
+        "type": "string",
+        "default": "'Cancel'",
+        "source": null
+      },
+      {
+        "name": "cancelTitleHtml",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "cancelVariant",
+        "type": "string",
+        "default": "'secondary'",
+        "source": null
+      },
+      {
+        "name": "centered",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "contentClass",
+        "type": [
+          "string",
+          "array"
+        ],
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "dialogClass",
+        "type": [
+          "string",
+          "array"
+        ],
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "footerBgVariant",
+        "type": "string",
+        "default": null,
+        "source": null
+      },
+      {
+        "name": "footerBorderVariant",
+        "type": "string",
+        "default": null,
+        "source": null
+      },
+      {
+        "name": "footerClass",
+        "type": [
+          "string",
+          "array"
+        ],
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "footerTextVariant",
+        "type": "string",
+        "default": null,
+        "source": null
+      },
+      {
+        "name": "headerBgVariant",
+        "type": "string",
+        "default": null,
+        "source": null
+      },
+      {
+        "name": "headerBorderVariant",
+        "type": "string",
+        "default": null,
+        "source": null
+      },
+      {
+        "name": "headerClass",
+        "type": [
+          "string",
+          "array"
+        ],
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "headerCloseLabel",
+        "type": "string",
+        "default": "'Close'",
+        "source": null
+      },
+      {
+        "name": "headerCloseVariant",
+        "type": "string",
+        "default": null,
+        "source": null
+      },
+      {
+        "name": "headerTextVariant",
+        "type": "string",
+        "default": null,
+        "source": null
+      },
+      {
+        "name": "hideBackdrop",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "hideFooter",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "hideHeader",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "hideHeaderClose",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "id",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "lazy",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "modalClass",
+        "type": [
+          "string",
+          "array"
+        ],
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "noCloseOnBackdrop",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "noCloseOnEsc",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "noEnforceFocus",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "noFade",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "noStacking",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "okDisabled",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "okOnly",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "okTitle",
+        "type": "string",
+        "default": "'OK'",
+        "source": null
+      },
+      {
+        "name": "okTitleHtml",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "okVariant",
+        "type": "string",
+        "default": "'primary'",
+        "source": null
+      },
+      {
+        "name": "returnFocus",
+        "type": "any",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "scrollable",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "size",
+        "type": "string",
+        "default": "'md'",
+        "source": null
+      },
+      {
+        "name": "static",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "title",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "titleHtml",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "titleTag",
+        "type": "string",
+        "default": "'h5'",
+        "source": null
+      },
+      {
+        "name": "visible",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      }
+    ],
+    "mixins": []
+  },
+  "b-nav": {
+    "props": [
+      {
+        "name": "align",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "fill",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "isNavBar",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "justified",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "pills",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "small",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "tabs",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "tag",
+        "type": "string",
+        "default": "'ul'",
+        "source": null
+      },
+      {
+        "name": "vertical",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      }
+    ],
+    "mixins": []
+  },
+  "b-nav-item": {
+    "props": [
+      {
+        "name": "active",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "activeClass",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "append",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "disabled",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "event",
+        "type": [
+          "string",
+          "array"
+        ],
+        "default": "click",
+        "source": null
+      },
+      {
+        "name": "exact",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "exactActiveClass",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "href",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "linkAttrs",
+        "type": "object",
+        "default": {},
+        "source": null
+      },
+      {
+        "name": "linkClasses",
+        "type": [
+          "string",
+          "object",
+          "array"
+        ],
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "noPrefetch",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "rel",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "replace",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "routerTag",
+        "type": "string",
+        "default": "'a'",
+        "source": null
+      },
+      {
+        "name": "target",
+        "type": "string",
+        "default": "'_self'",
+        "source": null
+      },
+      {
+        "name": "to",
+        "type": [
+          "string",
+          "object"
+        ],
+        "default": "undefined",
+        "source": null
+      }
+    ],
+    "mixins": []
+  },
+  "b-nav-text": {
+    "props": [
+      {
+        "name": "tag",
+        "type": "string",
+        "default": "'span'",
+        "source": null
+      }
+    ],
+    "mixins": []
+  },
+  "b-nav-form": {
+    "props": [
+      {
+        "name": "id",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "novalidate",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "validated",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      }
+    ],
+    "mixins": []
+  },
+  "b-nav-item-dropdown": {
+    "props": [
+      {
+        "name": "disabled",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "dropleft",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "dropright",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "dropup",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "extraMenuClasses",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "extraToggleClasses",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "html",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "id",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "menuClass",
+        "type": [
+          "string",
+          "array"
+        ],
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "noCaret",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "noFlip",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "offset",
+        "type": [
+          "number",
+          "string"
+        ],
+        "default": 0,
+        "source": null
+      },
+      {
+        "name": "popperOpts",
+        "type": "any",
+        "source": null
+      },
+      {
+        "name": "right",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "role",
+        "type": "string",
+        "default": "'menu'",
+        "source": null
+      },
+      {
+        "name": "text",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "toggleClass",
+        "type": [
+          "string",
+          "array"
+        ],
+        "default": "undefined",
+        "source": null
+      }
+    ],
+    "mixins": []
+  },
+  "b-nav-item-dd": {
+    "props": [
+      {
+        "name": "disabled",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "dropleft",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "dropright",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "dropup",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "extraMenuClasses",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "extraToggleClasses",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "html",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "id",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "menuClass",
+        "type": [
+          "string",
+          "array"
+        ],
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "noCaret",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "noFlip",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "offset",
+        "type": [
+          "number",
+          "string"
+        ],
+        "default": 0,
+        "source": null
+      },
+      {
+        "name": "popperOpts",
+        "type": "any",
+        "source": null
+      },
+      {
+        "name": "right",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "role",
+        "type": "string",
+        "default": "'menu'",
+        "source": null
+      },
+      {
+        "name": "text",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "toggleClass",
+        "type": [
+          "string",
+          "array"
+        ],
+        "default": "undefined",
+        "source": null
+      }
+    ],
+    "mixins": []
+  },
+  "b-nav-dropdown": {
+    "props": [
+      {
+        "name": "disabled",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "dropleft",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "dropright",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "dropup",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "extraMenuClasses",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "extraToggleClasses",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "html",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "id",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "menuClass",
+        "type": [
+          "string",
+          "array"
+        ],
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "noCaret",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "noFlip",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "offset",
+        "type": [
+          "number",
+          "string"
+        ],
+        "default": 0,
+        "source": null
+      },
+      {
+        "name": "popperOpts",
+        "type": "any",
+        "source": null
+      },
+      {
+        "name": "right",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "role",
+        "type": "string",
+        "default": "'menu'",
+        "source": null
+      },
+      {
+        "name": "text",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "toggleClass",
+        "type": [
+          "string",
+          "array"
+        ],
+        "default": "undefined",
+        "source": null
+      }
+    ],
+    "mixins": []
+  },
+  "b-nav-dd": {
+    "props": [
+      {
+        "name": "disabled",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "dropleft",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "dropright",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "dropup",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "extraMenuClasses",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "extraToggleClasses",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "html",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "id",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "menuClass",
+        "type": [
+          "string",
+          "array"
+        ],
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "noCaret",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "noFlip",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "offset",
+        "type": [
+          "number",
+          "string"
+        ],
+        "default": 0,
+        "source": null
+      },
+      {
+        "name": "popperOpts",
+        "type": "any",
+        "source": null
+      },
+      {
+        "name": "right",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "role",
+        "type": "string",
+        "default": "'menu'",
+        "source": null
+      },
+      {
+        "name": "text",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "toggleClass",
+        "type": [
+          "string",
+          "array"
+        ],
+        "default": "undefined",
+        "source": null
+      }
+    ],
+    "mixins": []
+  },
+  "b-navbar": {
+    "props": [
+      {
+        "name": "fixed",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "print",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "sticky",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "tag",
+        "type": "string",
+        "default": "'nav'",
+        "source": null
+      },
+      {
+        "name": "toggleable",
+        "type": [
+          "boolean",
+          "string"
+        ],
+        "default": false,
+        "source": null
+      },
+      {
+        "name": "type",
+        "type": "string",
+        "default": "'light'",
+        "source": null
+      },
+      {
+        "name": "variant",
+        "type": "string",
+        "default": null,
+        "source": null
+      }
+    ],
+    "mixins": []
+  },
+  "b-navbar-nav": {
+    "props": [
+      {
+        "name": "align",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "fill",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "justified",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "small",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "tag",
+        "type": "string",
+        "default": "'ul'",
+        "source": null
+      }
+    ],
+    "mixins": []
+  },
+  "b-navbar-brand": {
+    "props": [
+      {
+        "name": "active",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "activeClass",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "append",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "disabled",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "event",
+        "type": [
+          "string",
+          "array"
+        ],
+        "default": "click",
+        "source": null
+      },
+      {
+        "name": "exact",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "exactActiveClass",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "href",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "noPrefetch",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "rel",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "replace",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "routerTag",
+        "type": "string",
+        "default": "'a'",
+        "source": null
+      },
+      {
+        "name": "tag",
+        "type": "string",
+        "default": "'div'",
+        "source": null
+      },
+      {
+        "name": "target",
+        "type": "string",
+        "default": "'_self'",
+        "source": null
+      },
+      {
+        "name": "to",
+        "type": [
+          "string",
+          "object"
+        ],
+        "default": "undefined",
+        "source": null
+      }
+    ],
+    "mixins": []
+  },
+  "b-navbar-toggle": {
+    "props": [
+      {
+        "name": "label",
+        "type": "string",
+        "default": "'Toggle navigation'",
+        "source": null
+      },
+      {
+        "name": "target",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      }
+    ],
+    "mixins": []
+  },
+  "b-nav-toggle": {
+    "props": [
+      {
+        "name": "label",
+        "type": "string",
+        "default": "'Toggle navigation'",
+        "source": null
+      },
+      {
+        "name": "target",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      }
+    ],
+    "mixins": []
+  },
+  "b-pagination": {
+    "props": [
+      {
+        "name": "align",
+        "type": "string",
+        "default": "'left'",
+        "source": null
+      },
+      {
+        "name": "ariaControls",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "ariaLabel",
+        "type": "string",
+        "default": "'Pagination'",
+        "source": null
+      },
+      {
+        "name": "disabled",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "ellipsisText",
+        "type": "string",
+        "default": "'…'",
+        "source": null
+      },
+      {
+        "name": "firstText",
+        "type": "string",
+        "default": "'«'",
+        "source": null
+      },
+      {
+        "name": "hideEllipsis",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "hideGotoEndButtons",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "labelFirstPage",
+        "type": "string",
+        "default": "'Go to first page'",
+        "source": null
+      },
+      {
+        "name": "labelLastPage",
+        "type": "string",
+        "default": "'Go to last page'",
+        "source": null
+      },
+      {
+        "name": "labelNextPage",
+        "type": "string",
+        "default": "'Go to next page'",
+        "source": null
+      },
+      {
+        "name": "labelPage",
+        "type": [
+          "string",
+          "function"
+        ],
+        "default": "Go to page",
+        "source": null
+      },
+      {
+        "name": "labelPrevPage",
+        "type": "string",
+        "default": "'Go to previous page'",
+        "source": null
+      },
+      {
+        "name": "lastText",
+        "type": "string",
+        "default": "'»'",
+        "source": null
+      },
+      {
+        "name": "limit",
+        "type": [
+          "number",
+          "string"
+        ],
+        "default": 5,
+        "source": null
+      },
+      {
+        "name": "nextText",
+        "type": "string",
+        "default": "'›'",
+        "source": null
+      },
+      {
+        "name": "perPage",
+        "type": [
+          "number",
+          "string"
+        ],
+        "default": 20,
+        "source": null
+      },
+      {
+        "name": "prevText",
+        "type": "string",
+        "default": "'‹'",
+        "source": null
+      },
+      {
+        "name": "size",
+        "type": "string",
+        "default": "'md'",
+        "source": null
+      },
+      {
+        "name": "totalRows",
+        "type": [
+          "number",
+          "string"
+        ],
+        "default": 0,
+        "source": null
+      },
+      {
+        "name": "value",
+        "type": [
+          "number",
+          "string"
+        ],
+        "default": "undefined",
+        "source": null
+      }
+    ],
+    "mixins": []
+  },
+  "b-pagination-nav": {
+    "props": [
+      {
+        "name": "activeClass",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "align",
+        "type": "string",
+        "default": "'left'",
+        "source": null
+      },
+      {
+        "name": "ariaLabel",
+        "type": "string",
+        "default": "'Pagination'",
+        "source": null
+      },
+      {
+        "name": "baseUrl",
+        "type": "string",
+        "default": "'/'",
+        "source": null
+      },
+      {
+        "name": "disabled",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "ellipsisText",
+        "type": "string",
+        "default": "'…'",
+        "source": null
+      },
+      {
+        "name": "exact",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "exactActiveClass",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "firstText",
+        "type": "string",
+        "default": "'«'",
+        "source": null
+      },
+      {
+        "name": "hideEllipsis",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "hideGotoEndButtons",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "labelFirstPage",
+        "type": "string",
+        "default": "'Go to first page'",
+        "source": null
+      },
+      {
+        "name": "labelLastPage",
+        "type": "string",
+        "default": "'Go to last page'",
+        "source": null
+      },
+      {
+        "name": "labelNextPage",
+        "type": "string",
+        "default": "'Go to next page'",
+        "source": null
+      },
+      {
+        "name": "labelPage",
+        "type": [
+          "string",
+          "function"
+        ],
+        "default": "Go to page",
+        "source": null
+      },
+      {
+        "name": "labelPrevPage",
+        "type": "string",
+        "default": "'Go to previous page'",
+        "source": null
+      },
+      {
+        "name": "lastText",
+        "type": "string",
+        "default": "'»'",
+        "source": null
+      },
+      {
+        "name": "limit",
+        "type": [
+          "number",
+          "string"
+        ],
+        "default": 5,
+        "source": null
+      },
+      {
+        "name": "linkGen",
+        "type": "function",
+        "default": "null",
+        "source": null
+      },
+      {
+        "name": "nextText",
+        "type": "string",
+        "default": "'›'",
+        "source": null
+      },
+      {
+        "name": "noPageDetect",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "noPrefetch",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "numberOfPages",
+        "type": [
+          "number",
+          "string"
+        ],
+        "default": 1,
+        "source": null
+      },
+      {
+        "name": "pageGen",
+        "type": "function",
+        "default": "null",
+        "source": null
+      },
+      {
+        "name": "pages",
+        "type": "array",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "prevText",
+        "type": "string",
+        "default": "'‹'",
+        "source": null
+      },
+      {
+        "name": "size",
+        "type": "string",
+        "default": "'md'",
+        "source": null
+      },
+      {
+        "name": "useRouter",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "value",
+        "type": [
+          "number",
+          "string"
+        ],
+        "default": "undefined",
+        "source": null
+      }
+    ],
+    "mixins": []
+  },
+  "b-popover": {
+    "props": [
+      {
+        "name": "boundary",
+        "type": [
+          "string",
+          "object"
+        ],
+        "default": "scrollParent",
+        "source": null
+      },
+      {
+        "name": "boundaryPadding",
+        "type": "number",
+        "default": 5,
+        "source": null
+      },
+      {
+        "name": "container",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "content",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "delay",
+        "type": [
+          "number",
+          "object",
+          "string"
+        ],
+        "default": 0,
+        "source": null
+      },
+      {
+        "name": "disabled",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "fallbackPlacement",
+        "type": [
+          "string",
+          "array"
+        ],
+        "default": "flip",
+        "source": null
+      },
+      {
+        "name": "noFade",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "offset",
+        "type": [
+          "number",
+          "string"
+        ],
+        "default": 0,
+        "source": null
+      },
+      {
+        "name": "placement",
+        "type": "string",
+        "default": "'right'",
+        "source": null
+      },
+      {
+        "name": "show",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "target",
+        "type": [
+          "string",
+          "object",
+          "object",
+          "function"
+        ],
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "title",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "triggers",
+        "type": [
+          "string",
+          "array"
+        ],
+        "default": "click",
+        "source": null
+      }
+    ],
+    "mixins": []
+  },
+  "b-progress": {
+    "props": [
+      {
+        "name": "animated",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "height",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "max",
+        "type": "number",
+        "default": 100,
+        "source": null
+      },
+      {
+        "name": "precision",
+        "type": "number",
+        "default": 0,
+        "source": null
+      },
+      {
+        "name": "showProgress",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "showValue",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "striped",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "value",
+        "type": "number",
+        "default": 0,
+        "source": null
+      },
+      {
+        "name": "variant",
+        "type": "string",
+        "default": null,
+        "source": null
+      }
+    ],
+    "mixins": []
+  },
+  "b-progress-bar": {
+    "props": [
+      {
+        "name": "animated",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "label",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "labelHtml",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "max",
+        "type": "number",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "precision",
+        "type": "number",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "showProgress",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "showValue",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "striped",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "value",
+        "type": "number",
+        "default": 0,
+        "source": null
+      },
+      {
+        "name": "variant",
+        "type": "string",
+        "default": null,
+        "source": null
+      }
+    ],
+    "mixins": []
+  },
+  "b-spinner": {
+    "props": [
+      {
+        "name": "label",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "role",
+        "type": "string",
+        "default": "'status'",
+        "source": null
+      },
+      {
+        "name": "small",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "tag",
+        "type": "string",
+        "default": "'span'",
+        "source": null
+      },
+      {
+        "name": "type",
+        "type": "string",
+        "default": "'border'",
+        "source": null
+      },
+      {
+        "name": "variant",
+        "type": "string",
+        "default": null,
+        "source": null
+      }
+    ],
+    "mixins": []
+  },
+  "b-table": {
+    "props": [
+      {
+        "name": "apiUrl",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "bordered",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "borderless",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "busy",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "caption",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "captionHtml",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "captionTop",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "currentPage",
+        "type": [
+          "number",
+          "string"
+        ],
+        "default": 1,
+        "source": null
+      },
+      {
+        "name": "dark",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "emptyFilteredHtml",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "emptyFilteredText",
+        "type": "string",
+        "default": "'There are no records matching your request'",
+        "source": null
+      },
+      {
+        "name": "emptyHtml",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "emptyText",
+        "type": "string",
+        "default": "'There are no records to show'",
+        "source": null
+      },
+      {
+        "name": "fields",
+        "type": [
+          "array",
+          "object"
+        ],
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "filter",
+        "type": [
+          "string",
+          "regexp",
+          "object",
+          "array",
+          "function"
+        ],
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "filterFunction",
+        "type": "function",
+        "default": "null",
+        "source": null
+      },
+      {
+        "name": "fixed",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "footClone",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "footVariant",
+        "type": "string",
+        "default": null,
+        "source": null
+      },
+      {
+        "name": "headVariant",
+        "type": "string",
+        "default": null,
+        "source": null
+      },
+      {
+        "name": "hover",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "id",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "items",
+        "type": [
+          "array",
+          "function"
+        ],
+        "default": [],
+        "source": null
+      },
+      {
+        "name": "labelSortAsc",
+        "type": "string",
+        "default": "'Click to sort Ascending'",
+        "source": null
+      },
+      {
+        "name": "labelSortClear",
+        "type": "string",
+        "default": "'Click to clear sorting'",
+        "source": null
+      },
+      {
+        "name": "labelSortDesc",
+        "type": "string",
+        "default": "'Click to sort Descending'",
+        "source": null
+      },
+      {
+        "name": "noFooterSorting",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "noLocalSorting",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "noProviderFiltering",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "noProviderPaging",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "noProviderSorting",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "noSortReset",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "outlined",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "perPage",
+        "type": [
+          "number",
+          "string"
+        ],
+        "default": 0,
+        "source": null
+      },
+      {
+        "name": "primaryKey",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "responsive",
+        "type": [
+          "boolean",
+          "string"
+        ],
+        "default": false,
+        "source": null
+      },
+      {
+        "name": "selectMode",
+        "type": "string",
+        "default": "'multi'",
+        "source": null
+      },
+      {
+        "name": "selectable",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "selectedVariant",
+        "type": "string",
+        "default": "'primary'",
+        "source": null
+      },
+      {
+        "name": "showEmpty",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "small",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "sortBy",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "sortCompare",
+        "type": "function",
+        "default": "null",
+        "source": null
+      },
+      {
+        "name": "sortDesc",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "sortDirection",
+        "type": "string",
+        "default": "'asc'",
+        "source": null
+      },
+      {
+        "name": "stacked",
+        "type": [
+          "boolean",
+          "string"
+        ],
+        "default": false,
+        "source": null
+      },
+      {
+        "name": "striped",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "tableClass",
+        "type": [
+          "string",
+          "array",
+          "object"
+        ],
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "tbodyClass",
+        "type": [
+          "string",
+          "array"
+        ],
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "tbodyTrClass",
+        "type": [
+          "string",
+          "array",
+          "function"
+        ],
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "tbodyTransitionHandlers",
+        "type": "object",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "tbodyTransitionProps",
+        "type": "object",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "tfootClass",
+        "type": [
+          "string",
+          "array",
+          "object"
+        ],
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "tfootTrClass",
+        "type": [
+          "string",
+          "array",
+          "object"
+        ],
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "theadClass",
+        "type": [
+          "string",
+          "array",
+          "object"
+        ],
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "theadTrClass",
+        "type": [
+          "string",
+          "array",
+          "object"
+        ],
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "value",
+        "type": "array",
+        "default": [],
+        "source": null
+      }
+    ],
+    "mixins": []
+  },
+  "b-tabs": {
+    "props": [
+      {
+        "name": "activeNavItemClass",
+        "type": [
+          "string",
+          "array",
+          "object"
+        ],
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "activeTabClass",
+        "type": [
+          "string",
+          "array",
+          "object"
+        ],
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "align",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "bottom",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "card",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "contentClass",
+        "type": [
+          "string",
+          "array",
+          "object"
+        ],
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "end",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "fill",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "id",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "justified",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "lazy",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "navClass",
+        "type": [
+          "string",
+          "array",
+          "object"
+        ],
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "navWrapperClass",
+        "type": [
+          "string",
+          "array",
+          "object"
+        ],
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "noFade",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "noKeyNav",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "noNavStyle",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "pills",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "small",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "tag",
+        "type": "string",
+        "default": "'div'",
+        "source": null
+      },
+      {
+        "name": "value",
+        "type": "number",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "vertical",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      }
+    ],
+    "mixins": []
+  },
+  "b-tab": {
+    "props": [
+      {
+        "name": "active",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "buttonId",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "disabled",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "headHtml",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "href",
+        "type": "string",
+        "default": "'#'",
+        "source": null
+      },
+      {
+        "name": "id",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "lazy",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "noBody",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "tag",
+        "type": "string",
+        "default": "'div'",
+        "source": null
+      },
+      {
+        "name": "title",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "titleItemClass",
+        "type": [
+          "string",
+          "array",
+          "object"
+        ],
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "titleLinkClass",
+        "type": [
+          "string",
+          "array",
+          "object"
+        ],
+        "default": "undefined",
+        "source": null
+      }
+    ],
+    "mixins": []
+  },
+  "b-toast": {
+    "props": [
+      {
+        "name": "appendToast",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "autoHideDelay",
+        "type": [
+          "number",
+          "string"
+        ],
+        "default": 5000,
+        "source": null
+      },
+      {
+        "name": "bodyClass",
+        "type": [
+          "string",
+          "object",
+          "array"
+        ],
+        "default": null,
+        "source": null
+      },
+      {
+        "name": "headerClass",
+        "type": [
+          "string",
+          "object",
+          "array"
+        ],
+        "default": null,
+        "source": null
+      },
+      {
+        "name": "href",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "id",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "isStatus",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "noAutoHide",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "noCloseButton",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "noFade",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "noHoverPause",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "solid",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "static",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "title",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "to",
+        "type": [
+          "string",
+          "object"
+        ],
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "toastClass",
+        "type": [
+          "string",
+          "object",
+          "array"
+        ],
+        "default": null,
+        "source": null
+      },
+      {
+        "name": "toaster",
+        "type": "string",
+        "default": "'b-toaster-top-right'",
+        "source": null
+      },
+      {
+        "name": "variant",
+        "type": "string",
+        "default": null,
+        "source": null
+      },
+      {
+        "name": "visible",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      }
+    ],
+    "mixins": []
+  },
+  "b-toaster": {
+    "props": [
+      {
+        "name": "ariaAtomic",
+        "type": "string",
+        "default": null,
+        "source": null
+      },
+      {
+        "name": "ariaLive",
+        "type": "string",
+        "default": null,
+        "source": null
+      },
+      {
+        "name": "name",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "role",
+        "type": "string",
+        "default": null,
+        "source": null
+      }
+    ],
+    "mixins": []
+  },
+  "b-tooltip": {
+    "props": [
+      {
+        "name": "boundary",
+        "type": [
+          "string",
+          "object"
+        ],
+        "default": "scrollParent",
+        "source": null
+      },
+      {
+        "name": "boundaryPadding",
+        "type": "number",
+        "default": 5,
+        "source": null
+      },
+      {
+        "name": "container",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "delay",
+        "type": [
+          "number",
+          "object",
+          "string"
+        ],
+        "default": 0,
+        "source": null
+      },
+      {
+        "name": "disabled",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "fallbackPlacement",
+        "type": [
+          "string",
+          "array"
+        ],
+        "default": "flip",
+        "source": null
+      },
+      {
+        "name": "noFade",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "offset",
+        "type": [
+          "number",
+          "string"
+        ],
+        "default": 0,
+        "source": null
+      },
+      {
+        "name": "placement",
+        "type": "string",
+        "default": "'top'",
+        "source": null
+      },
+      {
+        "name": "show",
+        "type": "boolean",
+        "default": "false",
+        "source": null
+      },
+      {
+        "name": "target",
+        "type": [
+          "string",
+          "object",
+          "object",
+          "function"
+        ],
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "title",
+        "type": "string",
+        "default": "undefined",
+        "source": null
+      },
+      {
+        "name": "triggers",
+        "type": [
+          "string",
+          "array"
+        ],
+        "default": "hover focus",
+        "source": null
+      }
+    ],
+    "mixins": []
+  }
+}

@@ -6,7 +6,7 @@ from .generate_schema import generate_schema
 
 here = os.path.dirname(os.path.abspath(__file__))
 
-vuetify_api = f'{here}/vuetify_api_1.5.12.json'
+component_api = f'{here}/bootstrapvue_api_2.0.0.json'
 base_schema = f'{here}/base.json'
 build_dir = f'{here}/build'
 widget_gen_schema = f'{build_dir}/widget_gen_schema.json'
@@ -18,7 +18,7 @@ python_template = f'{here}/python.njk'
 
 project_dir = f'{here}/..'
 destination_js = f'{project_dir}/js/lib/generated'
-destination_python = f'{project_dir}/ipyvuetify/generated'
+destination_python = f'{project_dir}/ipybootstrapvue/generated'
 
 
 def reset_dir(name):
@@ -37,7 +37,7 @@ def generate():
     if not os.path.isdir(build_dir):
         os.mkdir(build_dir)
 
-    generate_schema(vuetify_api, base_schema, widget_gen_schema)
+    generate_schema(component_api, base_schema, widget_gen_schema)
 
     subprocess.check_call(f'{npm} install', cwd=here, shell=True)
 

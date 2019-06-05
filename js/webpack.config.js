@@ -6,6 +6,24 @@ var version = require('./package.json').version;
 var rules = [
     { test: /\.css$/, use: ['style-loader', 'css-loader']},
     {
+        test: /\.less$/,
+        use: [
+            {
+                loader: 'style-loader', // creates style nodes from JS strings
+              },
+              {
+                loader: 'css-loader', // translates CSS into CommonJS
+              },
+              {
+                loader: 'less-loader',
+                options: {
+                    strictMath: true,
+                    paths: [path.resolve(__dirname, 'node_modules')],
+                }
+              }
+        ],
+    },
+    {
         test: /\.vue$/,
         exclude: /node_modules/,
         loader: 'vue-loader'
@@ -35,7 +53,7 @@ module.exports = [
         entry: './lib/extension.js',
         output: {
             filename: 'extension.js',
-            path: path.resolve(__dirname, '..', 'ipyvuetify', 'static'),
+            path: path.resolve(__dirname, '..', 'ipybootstrapvue', 'static'),
             libraryTarget: 'amd'
         },
         mode: 'production',
@@ -49,7 +67,7 @@ module.exports = [
         entry: './lib/notebook.js',
         output: {
             filename: 'index.js',
-            path: path.resolve(__dirname, '..', 'ipyvuetify', 'static'),
+            path: path.resolve(__dirname, '..', 'ipybootstrapvue', 'static'),
             libraryTarget: 'amd'
         },
         devtool: 'source-map',
@@ -73,14 +91,14 @@ module.exports = [
         entry: './lib/nodeps.js',
         output: {
             filename: 'nodeps.js',
-            path: path.resolve(__dirname, '..', 'ipyvuetify', 'static'),
+            path: path.resolve(__dirname, '..', 'ipybootstrapvue', 'static'),
             libraryTarget: 'amd'
         },
         devtool: 'source-map',
         module: {
             rules: rules
         },
-        externals: ['@jupyter-widgets/base', 'vue', '@mariobuikhuizen/vuetify', 'material-design-icons-iconfont', 'typeface-roboto'],
+        externals: ['@jupyter-widgets/base', 'vue', '@gfournier/ipybootstrapvue'],
         mode: 'production',
     },
     {// Embeddable jupyter-vuetify bundle
@@ -102,7 +120,7 @@ module.exports = [
             filename: 'index.js',
             path: path.resolve(__dirname, 'dist'),
             libraryTarget: 'amd',
-            publicPath: 'https://unpkg.com/jupyter-vuetify@' + version + '/dist/'
+            publicPath: 'https://unpkg.com/jupyter-ipybootstrapvue@' + version + '/dist/'
         },
         devtool: 'source-map',
         module: {

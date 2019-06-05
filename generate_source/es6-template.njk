@@ -39,7 +39,7 @@ export class {{ widget.name }}Model extends {{ widget.inherits[0] }}Model {
     {% if widget.name !== "VuetifyWidget" %}
 
     getVuetifyTag() { // eslint-disable-line class-methods-use-this
-        return 'v{{ widget.name | replace(r/([A-Z][a-z]+)/g, "-$1") | lower}}';
+        return 'b{{ widget.name | replace(r/([A-Z][a-z]+)/g, "-$1") | lower}}';
     }
     {% endif %}
 {% endblock %}

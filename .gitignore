@@ -8,8 +8,10 @@ build/
 
 # generated code
 generate_source/build
-ipyvuetify/generated
+ipybootstrapvue/generated
 js/lib/generated
 
 # Compiled javascript
-ipyvuetify/static/
+ipybootstrapvue/static/
+
+.vscode/

@@ -1,4 +1,4 @@
-Jupyter widgets based on vuetify UI components
+Jupyter widgets based on bootstrap vue UI components
 
 Package Install
 ---------------
@@ -7,5 +7,5 @@ Package Install
 - [node](http://nodejs.org/)
 
 ```bash
-npm install --save jupyter-vuetify
+npm install --save jupyter-bootstrapvue
 ```

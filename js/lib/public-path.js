@@ -7,4 +7,4 @@
  */
 
 const baseUrl = document.querySelector('body').getAttribute('data-base-url');
-__webpack_public_path__ = `${baseUrl}nbextensions/jupyter-vuetify/`; // eslint-disable-line no-undef
+__webpack_public_path__ = `${baseUrl}nbextensions/jupyter-bootstrapvue/`; // eslint-disable-line no-undef

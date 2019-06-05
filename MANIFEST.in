@@ -1,2 +1,2 @@
-recursive-include ipyvuetify/static *.*
-include jupyter-vuetify.json
+recursive-include ipybootstrapvue/static *.*
+include jupyter-bootstrapvue.json

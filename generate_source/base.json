@@ -4,10 +4,10 @@
       "inherits": ["DOMWidget"],
       "properties": {
         "_view_name": "VuetifyView",
-        "_view_module": "jupyter-vuetify",
-        "_model_module": "jupyter-vuetify",
-        "_view_module_version": "0.1.0",
-        "_model_module_version": "0.1.0",
+        "_view_module": "jupyter-bootstrapvue",
+        "_model_module": "jupyter-bootstrapvue",
+        "_view_module_version": "0.0.1",
+        "_model_module_version": "0.0.1",
 
         "_metadata": {
           "type": "object",
@@ -57,7 +57,6 @@
         }
       }
     },
-
     "Text": {
       "inherits": ["VuetifyWidget"],
       "properties": {

@@ -10,7 +10,7 @@ export class VuetifyBaseView extends DOMWidgetView {
 
         /* Scope vuetify styles for overlays to this element */
         const vuetifyStyles = document.createElement('DIV');
-        vuetifyStyles.classList.add('vuetify-styles');
+        vuetifyStyles.classList.add('vuetify-styles', 'bootstrap-styles');
         vuetifyStyles.setAttribute('id', 'vuetify-styles');
         elem.insertBefore(vuetifyStyles, elem.children[0]);
 
@@ -44,7 +44,7 @@ export class VuetifyBaseView extends DOMWidgetView {
                     /* Prevent re-rendering of toplevel component. This happens on button-click in
                      * v-menu */
                     if (!this.ipyvuetifyApp) {
-                        this.ipyvuetifyApp = createElement('div', { class: 'vuetify-styles' }, [
+                        this.ipyvuetifyApp = createElement('div', { class: 'vuetify-styles bootstrap-styles' }, [
                             createElement('v-app', [
                                 this.vueRender(createElement)])]);
                     }

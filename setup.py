@@ -25,7 +25,7 @@ log.set_verbosity(log.DEBUG)
 log.info('setup.py entered')
 log.info('$PATH=%s' % os.environ['PATH'])
 
-LONG_DESCRIPTION = 'Jupyter widgets based on vuetify UI components'
+LONG_DESCRIPTION = 'Jupyter widgets based on bootstrap vue UI components'
 
 
 def js_prerelease(command, strict=False):
@@ -72,8 +72,8 @@ class NPM(Command):
     node_modules = os.path.join(node_root, 'node_modules')
 
     targets = [
-        os.path.join(here, 'ipyvuetify', 'static', 'extension.js'),
-        os.path.join(here, 'ipyvuetify', 'static', 'index.js')
+        os.path.join(here, 'ipybootstrapvue', 'static', 'extension.js'),
+        os.path.join(here, 'ipybootstrapvue', 'static', 'index.js')
     ]
 
     def initialize_options(self):
@@ -142,18 +142,18 @@ class GenerateSource(Command):
 
 
 version_ns = {}
-with open(os.path.join(here, 'ipyvuetify', '_version.py')) as f:
+with open(os.path.join(here, 'ipybootstrapvue', '_version.py')) as f:
     exec(f.read(), {}, version_ns)
 
 setup_args = {
-    'name': 'ipyvuetify',
+    'name': 'ipybootstrapvue',
     'version': version_ns['__version__'],
-    'description': 'Jupyter widgets based on vuetify UI components',
+    'description': 'Jupyter widgets based on bootstrapvue UI components',
     'long_description': LONG_DESCRIPTION,
     'include_package_data': True,
     'data_files': [
-        ('share/jupyter/nbextensions/jupyter-vuetify', glob.glob('ipyvuetify/static/*')),
-        ('etc/jupyter/nbconfig/notebook.d', ['jupyter-vuetify.json'])
+        ('share/jupyter/nbextensions/jupyter-bootstrapvue', glob.glob('ipybootstrapvue/static/*')),
+        ('etc/jupyter/nbconfig/notebook.d', ['jupyter-bootstrapvue.json'])
     ],
     'install_requires': [
         'ipywidgets>=7.0.0',
@@ -170,7 +170,7 @@ setup_args = {
 
     'author': 'Mario Buikhuizen, Maarten Breddels',
     'author_email': 'mbuikhuizen@gmail.com, maartenbreddels@gmail.com',
-    'url': 'https://github.com/mariobuikhuizen/ipyvuetify',
+    'url': 'https://github.com/gfournier/ipyvuetify',
     'keywords': [
         'ipython',
         'jupyter',

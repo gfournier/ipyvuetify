@@ -7,7 +7,7 @@ if (window.require) {
     window.require.config({
         map: {
             '*': {
-                'jupyter-vuetify': 'nbextensions/jupyter-vuetify/index',
+                'jupyter-bootstrapvue': 'nbextensions/jupyter-bootstrapvue/index',
             },
         },
     });
